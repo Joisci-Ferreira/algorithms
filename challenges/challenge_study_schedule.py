@@ -1,6 +1,5 @@
 def study_schedule(permanence_period, target_time):
     """Faça o código aqui."""
-   # raise NotImplementedError
     users_online = 0
 
     try:
@@ -11,4 +10,3 @@ def study_schedule(permanence_period, target_time):
         return None
 
     return users_online
-

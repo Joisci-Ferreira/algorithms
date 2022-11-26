@@ -20,8 +20,6 @@ def sort(string, start, end):
 
 def is_anagram(first_string, second_string):
     """Faça o código aqui."""
-   # raise NotImplementedError
-
     if not (first_string or second_string):
         return ('', '', False)
     if first_string == '' and second_string == '':
